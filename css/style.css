@@ -1,6 +1,22 @@
 .fluid-container {
-    width: 100%px;
-    height: 100%px;
+    width: 100%;
+    height: 100%;
 }
 
 .nav
+
+/* @media (min-width: 768px){
+    navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+#page-wrap{
+    margin: 0 auto;
+    max-width: 500px;
+    position: relative;
+    border: solid 1px black;
+
+}
