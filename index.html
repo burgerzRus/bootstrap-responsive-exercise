@@ -31,8 +31,22 @@
         }
         
          .navbar-header{
-            float: left;
+
         }
+
+         .nav-container{
+             padding-right: 15%;
+             padding-left: 15%;
+             margin-right: auto;
+             margin-left: auto;
+         }
+
+        .nav>li> {
+            position: relative;
+            display: block;
+            float: right;
+        }
+
 
         /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
         .row.content {
@@ -58,6 +72,10 @@
             text-align: center;
         }
 
+        #circles {
+            font-family: Impact;
+            text-align: center;
+        }
 
         /* Set black background color, white text and some padding */
         footer {
@@ -78,19 +96,22 @@
 </head>
 <body>
 <nav class="navbar">
+    <div class="nav-container">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Logo</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">Service</a></li>
                 <li><a href="#">Work</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Quote</a></li>
             </ul>
         </div>
+        </div>
     </div>
+
 </nav>
 
 <div class="container-fluid text-center">
@@ -104,6 +125,21 @@
             <h3>FROM PARK CITY, UTAH</h3>
 
         </div>
+
+        <div class="container-fluid" id="circles">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-5"></div>
+                        <div class="col-md-7">
+                            <h1>Put Circles Here</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="col-sm-2 sidenav">
 
         </div>
